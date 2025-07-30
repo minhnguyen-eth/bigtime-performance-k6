@@ -1,3 +1,3 @@
 #!/bin/bash
 export $(grep -v '^#' .env | xargs)
-k6 run tests/login-test.js
+k6 run tests/notifications-test.js
